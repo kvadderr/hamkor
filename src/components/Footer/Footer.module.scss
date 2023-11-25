@@ -1,0 +1,74 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.container {
+  padding: 20px;
+  padding-top: 28px;
+  background-color: $color-gray;
+  display: flex;
+  flex-direction: column;
+  gap: 48px
+}
+
+.infoContainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+}
+
+.phoneContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px
+}
+
+.license {
+  height: 37px;
+  border-top: 1px solid #C3CDD2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+p {
+  font-family: 'Golos';
+  font-size: 14px;
+  font-weight: 400;
+  color: #7C858D;
+}
+
+.phone {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 500;
+  color: #202020;
+}
+
+.bottomMenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 80px;
+  flex: 2;
+  align-items: center;
+
+  a {
+    min-width: calc(33.33% - 80px);
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 400;
+    color: #202020;
+  }
+}
+
+.mobileAppContainer {
+  flex: 1;
+  display: flex;
+}

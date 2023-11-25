@@ -1,0 +1,39 @@
+@import '../../../styles/mixins.scss';
+@import '../../../styles/variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    padding-block: 14px;
+    border-bottom: 1px solid $color-gray;
+}
+
+.rightSection {
+    display: flex;
+    gap: 12px;
+}
+
+.leftSection {
+    display: flex;
+    gap: 80px;
+}
+
+
+.menuRow {
+    display: flex;
+    gap: 24px;
+}
+
+.itemContainer {
+    cursor: pointer;
+
+    p {
+        font-family: 'Golos';
+        font-size: 16px;
+        font-weight: 500;
+        color: #202020;
+    }
+}

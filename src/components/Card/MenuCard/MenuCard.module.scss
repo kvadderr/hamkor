@@ -1,0 +1,47 @@
+@import '../../../styles/mixins.scss';
+@import '../../../styles/variables.scss';
+
+.container {
+  flex: 1;
+  padding-inline: 32px;
+  padding-block: 20px;
+  background-color: $color-white;
+  border-radius: $custom-radius;
+  gap: 40px;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 8px;
+
+  a {
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  h3 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  a {
+    color: $color-primary;
+    cursor: pointer;
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

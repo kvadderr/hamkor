@@ -1,0 +1,39 @@
+@import '../styles/mixins.scss';
+@import '../styles//variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    margin-top: 120px;
+    padding-block: 60px;
+    gap: 60px;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.secondSection {
+    gap: 16px;
+
+    .child {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.sixSection {
+    display: flex;
+    gap: 16px;
+}
+
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}

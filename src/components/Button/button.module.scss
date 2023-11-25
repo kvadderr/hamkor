@@ -1,0 +1,23 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+button {
+  background-color: $color-white;
+  cursor: pointer;
+  font-family: 'Golos';
+  font-size: 14px;
+  font-weight: 500;
+  padding-inline: 20px;
+  padding-block: 12px;
+  border: 0;
+  border-radius: $small-radius;
+}
+
+.whiteButton {
+  padding-inline: 20px;
+  padding-block: 12px;
+}
+
+.grayContainer {
+  background-color: #EBEFF4;
+}
