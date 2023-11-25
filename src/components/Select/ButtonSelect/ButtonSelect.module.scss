@@ -1,0 +1,31 @@
+@import '../../../styles/mixins.scss';
+@import '../../../styles/variables.scss';
+
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.buttonContainer {
+  cursor: pointer;
+  padding-block: 14px;
+  padding-inline: 18px;
+  background-color: $color-white;
+  border-radius: $big-radius;
+
+  p {
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 400;
+    color: #202020;
+  }
+
+}
+
+.active {
+  background-color: $color-primary;
+
+  p {
+    color: $color-white
+  }
+}

@@ -1,0 +1,10 @@
+@import '../../../styles/mixins.scss';
+@import '../../../styles/variables.scss';
+
+.container { 
+    background-color: $color-white;
+    border-radius: $custom-radius;
+    flex: 1;
+    display: flex;
+    padding: 32px;
+}

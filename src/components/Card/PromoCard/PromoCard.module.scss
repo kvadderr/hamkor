@@ -2,8 +2,31 @@
 @import '../../../styles/variables.scss';
 
 .container {
-    flex: 2;
-    background: #538981;
-    border-radius: $custom-radius;
-    padding: 32px;
+  flex: 2;
+  background: #538981;
+  border-radius: $custom-radius;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 500;
+  color: $color-white;
+}
+
+
+
+.background_image {
+  background-image: url('../../../assets/patterns/pattern_1.png');
 }
